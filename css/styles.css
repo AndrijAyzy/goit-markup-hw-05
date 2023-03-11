@@ -62,22 +62,30 @@ html {
 
 .header-link:hover{
     color: #404BBF;  
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-link:hover,
 .studio-link:focus,
 .studio-link:active{
     color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link:hover,
 .portfolio-link:focus,
 .portfolio-link:active{
     color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:focus{
     color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-box {
@@ -134,7 +142,7 @@ html {
 }
 
 .header-mail-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -149,6 +157,8 @@ html {
 
 .header-mail-link:hover {
     color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-num{
@@ -156,7 +166,7 @@ html {
 }
 
 .header-num-link {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -170,6 +180,8 @@ html {
 
 .header-num-link:hover {
     color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-main {
@@ -178,11 +190,13 @@ html {
     margin-right: auto;
     padding-top: 180px;
     padding-bottom: 180px;
+    padding-left: 473px;
+    padding-right: 473px;
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1440px;
+    width: 1440px;
     height: 600px;
 }
 
@@ -208,6 +222,8 @@ html {
 
 .button:hover{
     background: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -217,7 +233,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     align-content: center;
-    width: 494px;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
@@ -334,7 +349,7 @@ html {
     margin: 0px;
     padding: 0px;   
     margin-bottom: 72px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -344,7 +359,7 @@ html {
 }
 
 .section-third-names {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 24px;
     margin: 0px;
@@ -355,7 +370,7 @@ html {
 }
 
 .section-third-job {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -373,6 +388,8 @@ html {
 
 .icon-ya:hover{
     fill: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links {
@@ -405,6 +422,8 @@ html {
 
 .link:hover{
     background: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links > li {
@@ -451,11 +470,15 @@ html {
 
 .customers-icon:hover {
     border-color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon:hover > .icon-ya,
 .customers-icon:focus > .icon-ya{
     fill: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-customers {
@@ -472,7 +495,7 @@ html {
 }
 
 .footer-paragraph {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
@@ -501,7 +524,7 @@ html {
 }
 
 .footer-studio {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -545,6 +568,8 @@ html {
 
 .link-footer:hover{
     background: #31D0AA;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-links > li {
@@ -600,7 +625,7 @@ html {
 .btn-all {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -615,12 +640,14 @@ html {
 .btn-all:active {
     background-color: #404BBF;
     color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-website {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -635,12 +662,14 @@ html {
 .btn-website:active {
     background-color: #404BBF;
     color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-app {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -655,12 +684,14 @@ html {
 .btn-app:active {
     background-color: #404BBF;
     color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-design {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -675,12 +706,14 @@ html {
 .btn-design:active {
     background-color: #404BBF;
     color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-marketing {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -695,6 +728,8 @@ html {
 .btn-marketing:active {
     background-color: #404BBF;
     color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-section {
@@ -711,7 +746,7 @@ html {
 }
 
 .portfolio-top {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 24px;
@@ -747,6 +782,8 @@ html {
 
 .portfolio-tab:hover {
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image {
@@ -775,7 +812,9 @@ html {
 
 .portfolio-links:hover .image-portfolio,
 .portfolio-links:focus .image-portfolio {
-  transform: translateY(0);
+    transform: translateY(0);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-text {
@@ -843,15 +882,21 @@ html {
 
 .close-button:hover {
     background-color: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover > .vector-icon,
 .close-button:focus > .vector-icon{
     fill: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover,
 .close-button:focus {
-  outline: none;
-  color: #000;
+    outline: none;
+    color: #000;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
