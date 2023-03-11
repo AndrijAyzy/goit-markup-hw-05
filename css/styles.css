@@ -796,8 +796,11 @@ html {
     height: 100%;
     background-color:  rgba(46, 47, 66, 0.4);
     transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.back-sign.is-hidden .data-modal {
+    transform: translateY(-100vh)
 }
 
 .back-sign.is-hidden {
@@ -819,8 +822,7 @@ html {
     border-radius: 4px;
   
     transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button {
@@ -837,14 +839,6 @@ html {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.data-modal:nth-child {
-    transition-duration: 250ms;
-}
-
-.close-button:nth-child {
-    transition-duration: 250ms;
 }
 
 .close-button:hover {
