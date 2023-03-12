@@ -48,7 +48,7 @@ html {
 .header-link {  
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -142,7 +142,7 @@ html {
 }
 
 .header-mail-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -166,7 +166,7 @@ html {
 }
 
 .header-num-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -268,7 +268,6 @@ html {
 
 .section-second {
     padding-bottom: 120px;
-    padding-top: 112px;
 }
 
 .section-first-top {
@@ -347,7 +346,7 @@ html {
     margin: 0px;
     padding: 0px;   
     margin-bottom: 72px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -357,7 +356,7 @@ html {
 }
 
 .section-third-names {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 20px;
     line-height: 24px;
     margin: 0px;
@@ -368,7 +367,7 @@ html {
 }
 
 .section-third-job {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -433,8 +432,8 @@ html {
 }
 
 .section-four {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    margin-top: 130px;
+    margin-bottom: 120px;
 }
 
 .section-head-four {
@@ -605,8 +604,8 @@ html {
 }
 
 .section-btn-portfolio {
-    padding-top: 96px;
-    padding-bottom: 48px;
+    margin-top: 96px;
+    margin-bottom: 48px;
 
 }
 
@@ -623,7 +622,6 @@ html {
 .btn-all {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -645,7 +643,6 @@ html {
 .btn-website {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -667,7 +664,6 @@ html {
 .btn-app {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -689,7 +685,6 @@ html {
 .btn-design {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -711,7 +706,6 @@ html {
 .btn-marketing {
     margin-right: 24px;
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -744,7 +738,7 @@ html {
 }
 
 .portfolio-top {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-size: 20px;
     line-height: 24px;
